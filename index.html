@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+    <h1>Калькулятор чаевых</h1>
+    <div class="inputs">
+        <div class="field_sum">
+            <span class="text_sum">Сумма по счету</span>
+            <div class="sum_number">
+    <div class="sum_number">
+    <label>
+    <input type="number" class="sumByCheck">
+    <label>
+</div>
+</div>
+
+<div class="field-quality">
+    <span class="text_quality">Качество обслуживания</span>
+    <label>
+        <select id="options" class="list">
+            <option value="15"><span class="option_text">Отличное (15%)</span></option>
+            <option value="10"><span class="option_text">Хорошее (10%)</span></option>
+            <option value="5"><span class="option_text">Нормальное (5%)</span></option>
+            <option value="0"><span class="option_text">Плохое (0%)</span></option>
+  </select>
+  </label>
+  </div>
+
+  <div class="field_people_number">
+  <span class="text_persons"></span>Количество человек</span>
+  <label>
+    <input type="number" class="peoplenumber" min="0">
+    </label>
+    </div>
+</div>
+</div>
+<div class="buttons">
+    <button class="calculate"><span class="text-calculate">Посчитать</span></button>
+    <button class="delete"><span class="text-delete">Сбросить</span></button>
+</div>
+
+<div class="results">
+    <div class="summary_text">
+        <div class="title"><span class="title-text">Чаевые:</span></div>
+        <div class="value"><span class="value_text_value_tips"></span></div>
+        <div class="discription">
+            <span class="description_text">(С каждого)</span>
+            </div>
+            </div>
+            </div>
+        </form>
+            <script src="script.js"></script>
+            </body>
+        </html>
